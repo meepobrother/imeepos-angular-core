@@ -22,6 +22,12 @@
   (onSelect)="onSelect($event)"
 ></meepo-pay-money>
 
+<div meepo-coupon
+></div>
+
+
+<div meepo-pay-types [items]="payTypes"
+></div>
 
 <div meepo-pay-fixed-bottom
      [total]="total"
@@ -30,3 +36,5 @@
      (onPay)="onPay()"
 >
 </div>
+
+

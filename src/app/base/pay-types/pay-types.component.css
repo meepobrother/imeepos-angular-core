@@ -1,0 +1,66 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.m-payTime-tip {
+  color: #fc6621;
+  text-align: center;
+  line-height: 30px;
+  font-size: 11px;
+  margin-bottom: -7px;
+}
+
+.m-payWay-list li {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 15px;
+  display: -moz-box;
+  display: -webkit-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6
+}
+
+.m-payWay-list .c-info {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  line-height: 50px;
+}
+
+.m-payWay-list .des,.m-payWay-list .c-link-info {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 50px;
+}
+
+.m-payWay-list .c-tip {
+  color: #ff6000;
+  font-size: 11px;
+  margin-left: 6px;
+}
+
+.m-payWay-list .c-link-info {
+  width: 30px;
+}
+
+.c-pay-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 10px;
+  background-size: cover;
+  vertical-align: top;
+  margin-top: 9px;
+}
+.c-radio-icon {
+  background-image: url("c-radio-icon.png");
+  background-size: 44px 22px;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.selected .c-radio-icon {
+  background-position: -22px 0
+}

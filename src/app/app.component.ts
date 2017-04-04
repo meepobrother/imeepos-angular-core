@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {PayMoneyItem} from "./base/pay-money/pay-money.component";
 import {UserCardInfo} from "./base/user-card/user-card.component";
+import {PayTypesItem} from "./base/pay-types/pay-types.component";
 
 @Component({
   selector: 'app-root',
@@ -52,11 +53,33 @@ export class AppComponent {
 
   info: UserCardInfo = {
     avatar: '/assets/tuan-download.png',
-    nickname: '游客啊',
+    nickname: '小明',
     mobile: '13140415408',
     login: true,
-    tip: '请登录请登录请登录请登录'
+    tip: '会员到期时间2018-3-4'
   }
+
+  payTypes: PayTypesItem[] = [
+    {
+      title: '微信支付',
+      tip: '9.8折',
+      image: './assets/c-pay-weixin.png',
+      on: true
+    },
+    {
+      title: '支付宝支付',
+      tip: '9.5折',
+      image: './assets/c-pay-zfb.png',
+      on: false
+    },
+    {
+      title: '余额支付',
+      tip: '9折',
+      image: './assets/c-pay-tel.png',
+      on: false
+    },
+  ]
+
 
 
   showDownloadBox: boolean = true;

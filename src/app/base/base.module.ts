@@ -6,6 +6,9 @@ import { PayFixedBottomComponent } from './pay-fixed-bottom/pay-fixed-bottom.com
 import { LoadingComponent } from './loading/loading.component';
 import {PayMoneyComponent} from './pay-money/pay-money.component';
 import { UserCardComponent } from './user-card/user-card.component';
+import { PayTypesComponent } from './pay-types/pay-types.component';
+import { ExchangeCouponComponent } from './exchange-coupon/exchange-coupon.component';
+import { CouponComponent } from './coupon/coupon.component';
 
 export { DownloadBoxComponent } from './download-box/download-box.component';
 export { ErrorComponent } from './error/error.component';
@@ -25,7 +28,10 @@ export { UserCardInfo } from './user-card/user-card.component';
     PayFixedBottomComponent,
     LoadingComponent,
     PayMoneyComponent,
-    UserCardComponent
+    UserCardComponent,
+    PayTypesComponent,
+    ExchangeCouponComponent,
+    CouponComponent
   ],
   declarations: [
     DownloadBoxComponent,
@@ -33,7 +39,10 @@ export { UserCardInfo } from './user-card/user-card.component';
     PayFixedBottomComponent,
     LoadingComponent,
     PayMoneyComponent,
-    UserCardComponent
+    UserCardComponent,
+    PayTypesComponent,
+    ExchangeCouponComponent,
+    CouponComponent
   ]
 })
 export class BaseModule { }

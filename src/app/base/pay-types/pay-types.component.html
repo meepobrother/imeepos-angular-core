@@ -1,0 +1,15 @@
+<section class="m-payWay">
+  <ul class="m-payWay-list">
+    <li [class.selected]="item.on" *ngFor="let item of items" (click)="select(item)">
+      <div class="c-info">
+        <i class="c-pay-icon" [ngStyle]="{'backgroundImage':'url('+item.image+')'}"></i>
+        <span class="des">{{item.title}}
+          <em class="c-tip">{{item.tip}}</em>
+        </span>
+      </div>
+      <a href="javascript:void(0)" class="c-link-info">
+        <i class="c-radio-icon"></i>
+      </a>
+    </li>
+  </ul>
+</section>
