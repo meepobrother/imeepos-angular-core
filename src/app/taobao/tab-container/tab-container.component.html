@@ -1,0 +1,21 @@
+<div class="mod-shop-list">
+  <div class="tab-container" id="J_TabContainer" style="top: 0px; z-index: 1000;">
+    <div class="tab flex-container border border-bottom">
+      <div class="tab-item" [class.current]="tab.on && slideUp" (click)="_click(tab)" *ngFor="let tab of tabs">
+        <span class="name">{{tab.title}}</span>
+        <i class="i-triangle"></i>
+        <i class="separator"></i>
+      </div>
+    </div>
+    <div class="tab-panel" *ngIf="slideUp">
+      <div class="tab-panel-item">
+        <ul>
+          <li *ngFor="let item of list" (click)="_clickList(item)" [class.current]="item.on" class="tab-value border border-bottom ">
+            <span class="name">{{item.title}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mask" *ngIf="slideUp" style="display: block;"></div>

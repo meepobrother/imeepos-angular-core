@@ -1,0 +1,7 @@
+<div class="seckill_tab">
+  <ul>
+    <li [class.cur]="item.on" *ngFor="let item of items" (click)="click(item)">
+      <span>{{item.time}}</span><em>{{item.title}}</em>
+    </li>
+  </ul>
+</div>

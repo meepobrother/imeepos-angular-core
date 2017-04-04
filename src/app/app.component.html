@@ -12,29 +12,51 @@
 <!--<button (click)="show = !show">切换</button>-->
 <!--<meepo-loading [show]="show"></meepo-loading>-->
 
-<div meepo-user-card
-     [info]="info"
->
+<!--<div meepo-user-card-->
+     <!--[info]="info"-->
+<!--&gt;-->
+<!--</div>-->
+
+<!--<meepo-pay-money-->
+  <!--[items]="moneyItems"-->
+  <!--(onSelect)="onSelect($event)"-->
+<!--&gt;</meepo-pay-money>-->
+
+<!--<div meepo-coupon-->
+<!--&gt;</div>-->
+
+
+<!--<div meepo-pay-types [items]="payTypes"-->
+<!--&gt;</div>-->
+
+<!--<div meepo-pay-fixed-bottom-->
+     <!--[total]="total"-->
+     <!--btnTitle="立即支付"-->
+     <!--[youhui]="youhui"-->
+     <!--(onPay)="onPay()"-->
+<!--&gt;-->
+<!--</div>-->
+
+
+
+<!--<div meepo-seckill-tab [items]="items" (onSelect)="onselect(item)"></div>-->
+
+<!--<div meepo-seckill-items-head style="margin-top: 50px;"-->
+  <!--tip="抢购中,先到先得"-->
+  <!--[endTime]="endTime"-->
+<!--&gt;</div>-->
+
+<!--<meepo-seckill-items-list></meepo-seckill-items-list>-->
+<!--<div style="margin-top:88px;" meepo-seckill-loading></div>-->
+<!--<div meepo-seckill-tips-->
+     <!--(onClose)="showTip = !showTip" *ngIf="!showTip" [html]="'<p>划线价：商品展示的划横线价格为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在京东平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。</p>'"-->
+<!--&gt;-->
+  <!--<p>秒杀价：参与秒杀活动期间，该商品在京东秒杀频道的促销价格</p>-->
+<!--</div>-->
+
+<!--<meepo-post-tip [tips]="tips"></meepo-post-tip>-->
+<!--<meepo-post-upload></meepo-post-upload>-->
+
+<div meepo-tab-container>
+
 </div>
-
-<meepo-pay-money
-  [items]="moneyItems"
-  (onSelect)="onSelect($event)"
-></meepo-pay-money>
-
-<div meepo-coupon
-></div>
-
-
-<div meepo-pay-types [items]="payTypes"
-></div>
-
-<div meepo-pay-fixed-bottom
-     [total]="total"
-     btnTitle="立即支付"
-     [youhui]="youhui"
-     (onPay)="onPay()"
->
-</div>
-
-

@@ -1,0 +1,20 @@
+<li class="_item" style="height: 75px;">
+  <div class="upload_box" style="height: 74px; line-height: 74px;">
+    <ul class="upload_list clearfix" id="upload_list" style="height: 60px;">
+      <li class="upload_action" style="width: 60px;">
+        <span class="upload_img"></span>
+        <input type="file" accept="image/jpg,image/jpeg,image/png" id="fileImage" name="img">
+      </li>
+      <li class="upload_item" id="imgShow1" style="width: 60px;" *ngFor="let item of items">
+        <a href="javascript:;" class="upload_delete" title="删除"></a>
+        <img src="item" class="upload_image loading_img">
+        <br>
+      </li>
+
+      <span id="uploadTip" *ngIf="items.length == 0" style="line-height: 60px;">
+        最多可上传
+        <span id="numTip">8</span>张（选填）
+      </span>
+    </ul>
+  </div>
+</li>

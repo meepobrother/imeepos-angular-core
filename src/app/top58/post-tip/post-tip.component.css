@@ -1,0 +1,11 @@
+.paytoptips {
+  width: 100%;
+  background-color: #eee;
+  color: #ec4514;
+  padding: 6px 0
+}
+
+.paytoptips .paytips {
+  margin: 0 15px;
+  font-size: 14px
+}
