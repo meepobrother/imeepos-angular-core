@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  image: string = 'assets/tuan-download.png';
+
+  showDownloadBox: boolean = true;
+
+  clickDownLoad(){
+    console.log('我点击了领取');
+  }
 }

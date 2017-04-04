@@ -1,0 +1,80 @@
+.c-download-mask {
+  z-index: 100;
+  background: rgba(0,0,0,.75);
+}
+
+.c-download-box, .c-download-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.c-download-box {
+  z-index: 101;
+  font-size: 0;
+  line-height: 100%;
+}
+.c-download-content {
+  position: absolute;
+  top: 50%;
+  left: 55px;
+  right: 55px;
+  margin-top: -50%;
+}
+
+.c-download-close-box {
+  overflow: hidden;
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  border: 2px solid rgba(0,0,0,.3);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.c-download-close-btn {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+}
+
+.c-download-close-btn:before {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+}
+.c-download-close-btn:after {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+.c-download-close-btn:after, .c-download-close-btn:before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 14px;
+  display: block;
+  width: 2px;
+  height: 22px;
+  background: #666;
+}
+
+.c-download-img {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.c-download-text {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  color: #f24;
+  text-align: center;
+  background: #fff;
+}
