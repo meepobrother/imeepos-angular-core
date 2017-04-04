@@ -7,7 +7,6 @@ a{
 .m-pay-fixedBottom .inner {
   display: -moz-box;
   display: -webkit-box;
-  display: box;
   position: fixed;
   left: 0;
   bottom: 0;

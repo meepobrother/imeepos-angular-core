@@ -1,0 +1,167 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+a{
+  text-decoration: none;
+}
+a:focus, a:visited, a:active {
+  color: #333;
+  text-decoration: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.m-pay-userCard {
+  display: -moz-box;
+  display: -webkit-box;
+  height: 66px;
+}
+
+.m-pay-userCard .userCard-pic {
+  padding: 13px 10px;
+  display: block
+}
+
+.m-pay-userCard .userCard-pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%
+}
+
+.m-pay-userCard .userCard-cont {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1
+}
+
+.m-pay-userCard .user-title {
+  padding-top: 13px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.m-pay-userCard .user-title .cut-id {
+  border: 1px solid #dcdcdc;
+  color: #959595;
+  font-size: 10px;
+  padding: 8px;
+  border-radius: .2rem;
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: top;
+  padding-top: 1px;
+  margin-left: 2px;
+}
+
+.m-pay-userCard .user-title .user-num {
+  font-size: .13rem;
+  color: #666
+}
+
+.m-pay-userCard .user-title .c-user-link {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: bottom
+}
+
+.m-pay-userCard .c-des {
+  line-height: 24px;
+  font-size: 12px;
+  color: #666
+}
+
+.m-pay-userCard .c-des-vip {
+  color: #cf9f61
+}
+
+.m-pay-userCard .c-btn-login {
+  width: 65px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 18px;
+  margin-right: 10px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background-color: #c8a06a
+}
+.hide{
+  display:none !important;
+}
+@media screen and (max-width: 412px) {
+  .user-title .c-user-link {
+    max-width:92px !important
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .user-title .c-user-link {
+    max-width:110px !important
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .user-title .c-user-link {
+    max-width:92px !important
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .user-title .c-user-link {
+    font-size:12px !important;
+    max-width: 51px !important
+  }
+}
+
+
+.c-grade-icon {
+  background-image: url(vip-gold-grade-icon.png);
+  background-size: 160px 30px;
+  display: inline-block;
+  vertical-align: 1px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 15px;
+}
+
+.c-vip-grade-1 {
+  background-position: 0 0
+}
+
+.c-vip-grade-2 {
+  background-position: -20px 0
+}
+
+.c-vip-grade-3 {
+  background-position: -40px 0
+}
+
+.c-vip-grade-4 {
+  background-position: -60px 0
+}
+
+.c-vip-grade-5 {
+  background-position: -80px 0
+}
+
+.c-vip-grade-6 {
+  background-position: -100px 0
+}
+
+.c-vip-grade-7 {
+  background-position: -120px 0
+}
+
+.c-vip-grade-0,.c-vip-grade-v {
+  background-position: -140px 0
+}

@@ -1,7 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 @Component({
-  selector: 'meepo-pay-fixed-bottom',
+  selector: '[meepo-pay-fixed-bottom]',
   templateUrl: './pay-fixed-bottom.component.html',
   styleUrls: ['./pay-fixed-bottom.component.css']
 })

@@ -1,0 +1,16 @@
+<section class="m-pay-userCard">
+  <a href="javascript:;" class="userCard-pic">
+    <img [src]="info.avatar" width="40" height="40" [alt]="info.nickname">
+  </a>
+  <div class="userCard-cont">
+    <div class="user-title">
+      <a href="javascript:;" class="c-user-link">{{info.nickname}}</a>
+      <i class="c-grade-icon c-vip-grade-5"></i>
+      <span class="user-num" *ngIf="info.login">
+        (<span>{{info.mobile}}</span>登录)
+      </span>
+    </div>
+    <div class="c-des c-des-vip">{{info.tip}}</div>
+  </div>
+  <a class="c-btn-login" href="javascript:;" *ngIf="!info.login">立即登录</a>
+</section>

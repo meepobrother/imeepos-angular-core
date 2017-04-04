@@ -1,0 +1,21 @@
+<section class="m-pay-money">
+<ul class="pay-money-list">
+  <li [class.selected]="item.on" *ngFor="let item of items" (click)="select(item)">
+    <div class="pay-item">
+      <div class="info">
+        <div class="inner">
+          <span class="c-money">{{item.price}}元</span>
+          <!-- 原价是在原有类c-month基础上追加类c-original -->
+          <span class="c-month ">{{item.desc}}</span></div>
+      </div>
+      <div class="title">
+        <span class="monthly">{{item.title}}</span></div>
+      <div class="sales-info">
+        <span class="tip">{{item.tip}}</span></div>
+      <div class="c-rb">
+        <i class="c-glyphicon c-glyphicon-ok"></i>
+      </div>
+    </div>
+  </li>
+</ul>
+</section>

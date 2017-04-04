@@ -9,11 +9,24 @@
 
 <!--<meepo-error></meepo-error>-->
 
-<!--<meepo-pay-fixed-bottom-->
-  <!--[total]="total"-->
-  <!--btnTitle="立即支付"-->
-  <!--[youhui]="youhui"-->
-  <!--(onPay)="onPay()"-->
-<!--&lt;!&ndash;&gt;</meepo-pay-fixed-bottom>&ndash;&gt;-->
 <!--<button (click)="show = !show">切换</button>-->
 <!--<meepo-loading [show]="show"></meepo-loading>-->
+
+<div meepo-user-card
+     [info]="info"
+>
+</div>
+
+<meepo-pay-money
+  [items]="moneyItems"
+  (onSelect)="onSelect($event)"
+></meepo-pay-money>
+
+
+<div meepo-pay-fixed-bottom
+     [total]="total"
+     btnTitle="立即支付"
+     [youhui]="youhui"
+     (onPay)="onPay()"
+>
+</div>

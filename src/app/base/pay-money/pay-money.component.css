@@ -1,0 +1,171 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+ul{
+  list-style: none;
+}
+
+.m-pay-money .pay-money-title {
+  padding: 0 10rem;
+  border-bottom: 1px solid #f0f0f0;
+  display: -moz-box;
+  display: -webkit-box;
+}
+
+.m-pay-money .pay-money-title .info {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  display: block;
+  line-height: 45px;
+  font-size: 15px;
+}
+
+.m-pay-money .pay-money-title .c-link {
+  line-height: 45px;
+}
+
+.m-pay-money .pay-money-title .c-link .c-code {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #ff6000;
+}
+
+.m-pay-money .pay-money-title .c-link .c-glyphicon-arrowRight {
+  vertical-align: -2px;
+}
+
+.m-pay-money .pay-money-title .c-link .c-glyphicon-arrowRight:before {
+  font-size: 15px;
+}
+
+.m-pay-money .pay-money-list {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  letter-spacing: -4px;
+  overflow: hidden;
+}
+
+.m-pay-money .pay-money-list li {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  box-sizing: border-box
+}
+
+.m-pay-money .pay-money-list .pay-item {
+  position: relative;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  display: -moz-box;
+  display: -webkit-box;
+}
+
+.m-pay-money .pay-money-list .pay-item .c-glyphicon-ok {
+  display: block
+}
+
+.m-pay-money .pay-money-list .pay-item .c-glyphicon-ok:before {
+  color: #f0f0f0
+}
+
+.m-pay-money .pay-money-list .info {
+  position: relative;
+  height: 75px;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1
+}
+
+.m-pay-money .pay-money-list .info .inner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.m-pay-money .pay-money-list .info .c-money,.m-pay-money .pay-money-list .info .c-month {
+  display: block;
+  line-height: 20px;
+}
+
+.m-pay-money .pay-money-list .info .c-money {
+  color: #ff6000;
+  font-size: 17px;
+}
+
+.m-pay-money .pay-money-list .info .c-month {
+  color: #666;
+  font-size: 11px;
+}
+
+.m-pay-money .pay-money-list .info .c-original {
+  text-decoration: line-through
+}
+
+.m-pay-money .pay-money-list .title {
+  width: 30px;
+  height: 75px;
+  line-height: 75px;
+  background-color: #f0f0f0
+}
+
+.m-pay-money .pay-money-list .title .monthly {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.m-pay-money .pay-money-list .sales-info {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  height: 13px;
+  overflow: hidden;
+  background-image: url(sales-tipbg.png);
+  background-repeat: no-repeat;
+  background-size: auto 13px;
+  background-position: right top
+}
+
+.m-pay-money .pay-money-list .sales-info .tip {
+  display: block;
+  line-height: 14px;
+  padding-left: 2px;
+  margin-right: 5px;
+  color: #fff;
+  font-size: 9px;
+  background-color: #fd2500
+}
+
+.m-pay-money .pay-money-list li.selected .pay-item {
+  position: relative;
+  border: 1px solid #ff4e00
+}
+
+.m-pay-money .pay-money-list li.selected .pay-item:before {
+  content: " ";
+  position: absolute;
+  right: -0.16rem;
+  bottom: -0.16rem;
+  z-index: 5;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: .16rem;
+  border-color: #ff4e00 transparent transparent transparent;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg)
+}
