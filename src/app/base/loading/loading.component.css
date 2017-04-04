@@ -1,0 +1,25 @@
+.m-pay-loading-wrap {
+  position: fixed;
+  top: .44rem;
+  right: 0;
+  left: 0;
+  bottom: -80px;
+  z-index: 9998;
+  background-color: #fff;
+}
+
+.m-pay-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-image: url(pay-loading.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 62px;
+  height: 62px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 6;
+}

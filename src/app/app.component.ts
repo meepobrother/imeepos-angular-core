@@ -13,4 +13,12 @@ export class AppComponent {
   clickDownLoad(){
     console.log('我点击了领取');
   }
+
+  //支付
+  total: number = 10;
+  youhui: number = 2;
+
+  onPay(){
+    console.log('去支付')
+  }
 }

@@ -1,0 +1,64 @@
+a{
+  text-decoration: none;
+}
+.m-pay-fixedBottom {
+  height: 45px;
+}
+.m-pay-fixedBottom .inner {
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #666;
+  z-index: 5;
+}
+
+.m-pay-fixedBottom .info {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  letter-spacing: -4px;
+}
+.m-pay-fixedBottom .c-money {
+  color: #fff;
+  padding: 0px 5px 13px;
+  font-size: 15px;
+}
+
+.m-pay-fixedBottom .c-tip {
+  position: relative;
+  color: #b3b3b3;
+  padding-left: 10px;
+  font-size: 11px;
+}
+
+.m-pay-fixedBottom .c-money, .m-pay-fixedBottom .c-tip {
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.m-pay-fixedBottom .c-tip:before {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  content: "";
+  width: 1px;
+  height: 15px;
+  background-color: #8a8a8a;
+}
+
+.m-pay-fixedBottom .c-btn-pay {
+  width: 130px;
+  display: block;
+  line-height: 45px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  background-color: #ff6000;
+}

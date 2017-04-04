@@ -1,0 +1,11 @@
+<section class="m-pay-fixedBottom">
+  <div class="inner">
+    <div class="info">
+      <div>
+        <span class="c-money">总计￥<span>{{total}}</span></span>
+        <span class="c-tip" *ngIf="youhui > 0">已优惠<span>{{youhui}}</span>元</span>
+      </div>
+    </div>
+    <a href="javascript:;" (click)="goPay()" class="c-btn-pay">{{btnTitle}}</a>
+  </div>
+</section>
